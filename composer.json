@@ -44,8 +44,7 @@
         "phpstan": "phpstan --memory-limit=512M",
         "lint": [
             "@phpcs",
-            "@phpstan",
-            "@rector"
+            "@phpstan"
         ],
         "lint:fix": [
             "@rector:fix",
