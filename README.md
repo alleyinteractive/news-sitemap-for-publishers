@@ -16,7 +16,7 @@ License: GPL v2 or later
 
 [![Testing Suite](https://github.com/alleyinteractive/wp-news-sitemap/actions/workflows/all-pr-tests.yml/badge.svg?branch=develop)](https://github.com/alleyinteractive/wp-news-sitemap/actions/workflows/all-pr-tests.yml)
 
-Extends WordPress' XML sitemaps feature to add a news sitemap.
+Extends [WordPress's XML sitemaps feature](https://make.wordpress.org/core/2020/07/22/new-xml-sitemaps-functionality-in-wordpress-5-5/) to add a [news sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/news-sitemap).
 
 ## Installation
 
