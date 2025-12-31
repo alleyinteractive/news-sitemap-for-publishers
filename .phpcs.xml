@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="wp-news-sitemap" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/phpcs.xsd">
-  <description>PHP_CodeSniffer standard for wp-news-sitemap.</description>
+<ruleset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" name="news-sitemap-for-publishers" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/squizlabs/PHP_CodeSniffer/master/phpcs.xsd">
+  <description>PHP_CodeSniffer standard for news-sitemap-for-publishers.</description>
 
   <!-- Include Alley Rules -->
   <rule ref="Alley-Interactive" />

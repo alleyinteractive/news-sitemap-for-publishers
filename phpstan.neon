@@ -9,7 +9,7 @@ parameters:
 		# - blocks/
 		# - entries/
 		- src/
-		- wp-news-sitemap.php
+		- news-sitemap-for-publishers.php
 
 #    ignoreErrors:
 #        - '#PHPDoc tag @var#'

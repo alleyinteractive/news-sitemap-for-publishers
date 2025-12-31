@@ -2,7 +2,7 @@
 /**
  * ExitException class
  *
- * @package wp-news-sitemaps
+ * @package news-sitemap-for-publishers
  */
 
 namespace Alley\WP\News_Sitemap\Tests\Util;

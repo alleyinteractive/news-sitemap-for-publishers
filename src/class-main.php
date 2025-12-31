@@ -2,7 +2,7 @@
 /**
  * Main class
  *
- * @package wp-news-sitemap
+ * @package news-sitemap-for-publishers
  */
 
 namespace Alley\WP\News_Sitemap;

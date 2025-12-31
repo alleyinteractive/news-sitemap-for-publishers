@@ -2,7 +2,7 @@
 /**
  * WP News Sitemap Tests: Example Unit Test
  *
- * @package wp-news-sitemap
+ * @package news-sitemap-for-publishers
  */
 
 namespace Alley\WP\News_Sitemap\Tests\Unit;

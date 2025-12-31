@@ -4,7 +4,7 @@ Contributors: mboynes, alleyinteractive
 
 Tags: news, sitemap, seo, publishers, google
 
-Stable tag: 1.0.1
+Stable tag: 1.1.0
 
 Requires at least: 5.5
 
@@ -25,7 +25,7 @@ Extends [WordPress's XML sitemaps feature](https://make.wordpress.org/core/2020/
 You can install the package via Composer:
 
 ```bash
-composer require alleyinteractive/wp-news-sitemap
+composer require alleyinteractive/news-sitemap-for-publishers
 ```
 
 ## Usage
@@ -47,7 +47,7 @@ The command will start a local WordPress environment with the plugin activated.
 
 ## Testing
 
-[![Testing Suite](https://github.com/alleyinteractive/wp-news-sitemap/actions/workflows/all-pr-tests.yml/badge.svg?branch=develop)](https://github.com/alleyinteractive/wp-news-sitemap/actions/workflows/all-pr-tests.yml)
+[![Testing Suite](https://github.com/alleyinteractive/news-sitemap-for-publishers/actions/workflows/all-pr-tests.yml/badge.svg?branch=develop)](https://github.com/alleyinteractive/news-sitemap-for-publishers/actions/workflows/all-pr-tests.yml)
 
 Run `composer test` to run tests against PHPUnit and the PHP code in the plugin.
 Unit testing code is written in PSR-4 format and can be found in the `tests`
@@ -59,7 +59,7 @@ The plugin uses
 [action-release](https://github.com/alleyinteractive/action-release) via a
 [built release workflow](./.github/workflows/built-release.yml) to compile and
 tag releases. Whenever a new version is detected in the root plugin's headers in
-the `wp-news-sitemap.php` file or in the `composer.json` file, the workflow will
+the `news-sitemap-for-publishers.php` file or in the `composer.json` file, the workflow will
 automatically build the plugin and tag it with a new version. The built tag will
 contain all the required front-end assets the plugin may require. This works
 well for publishing to WordPress.org or for submodule-ing.
@@ -68,7 +68,7 @@ When you are ready to release a new version of the plugin, you can run
 `composer release` to start the process of setting up a new
 release. If you want to do this manually you can follow these steps:
 
-1. Change the `Version` in the `wp-news-sitemap.php` file to a new higher-level version.
+1. Change the `Version` in the `news-sitemap-for-publishers.php` file to a new higher-level version.
 
 	```diff
 	- * Version: 0.0.0

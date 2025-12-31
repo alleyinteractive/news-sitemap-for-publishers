@@ -3,7 +3,7 @@
  * Rector Configuration
  *
  * @link https://getrector.com/documentation
- * @package wp-news-sitemap
+ * @package news-sitemap-for-publishers
  */
 
 declare(strict_types=1);
