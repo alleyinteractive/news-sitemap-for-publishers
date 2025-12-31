@@ -28,22 +28,20 @@ composer require alleyinteractive/wp-news-sitemap
 
 ## Usage
 
-Activate the plugin in WordPress and flush your rewrite rules.
+Activate the plugin in WordPress and flush your rewrite rules (simply navigate to Settings → Permalinks in the WordPress admin to do so).
+
+You can verify that the plugin is working by navigating to `/wp-news-sitemap.xml` on your site. You should also find a new sitemap entry in your site's robots.txt file for this URL.
 
 ## Development
 
-To setup a WordPress installation and run the plugin in a local environment, you
+To set up a WordPress installation and run the plugin in a local environment, you
 can use `wp-env` via the `composer dev` command:
 
 ```sh
 composer dev
 ```
 
-The command will start a local WordPress environment with the plugin activated
-while also running the front-end assets build process. You can also run `npm run
-start` to start the front-end assets build process separately. The front-end
-assets will be compiled into the `build` directory and will be enqueued
-automatically by the plugin.
+The command will start a local WordPress environment with the plugin activated.
 
 ## Testing
 
@@ -63,7 +61,7 @@ contain all the required front-end assets the plugin may require. This works
 well for publishing to WordPress.org or for submodule-ing.
 
 When you are ready to release a new version of the plugin, you can run
-`npm run release`/`composer release` to start the process of setting up a new
+`composer release` to start the process of setting up a new
 release. If you want to do this manually you can follow these steps:
 
 1. Change the `Version` in the `wp-news-sitemap.php` file to a new higher-level version.
@@ -72,8 +70,6 @@ release. If you want to do this manually you can follow these steps:
 	- * Version: 0.0.0
 	+ * Version: 0.0.1
 	```
-
-	**✨ `npm run release` will do this for you automatically.**
 
 2. Commit your changes and push to the repository.
 3. Check the actions tab in the repository to see the progress of the release.
