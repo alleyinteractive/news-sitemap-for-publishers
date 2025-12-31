@@ -1,22 +1,24 @@
-# WP News Sitemap
+# News Sitemap for Publishers
 
 Contributors: mboynes, alleyinteractive
 
-Tags: wp-news-sitemap
+Tags: news, sitemap, seo, publishers, google
 
-Stable tag: 0.0.0
+Stable tag: 1.0.0
 
-Requires at least: 6.3
+Requires at least: 5.5
 
-Tested up to: 6.7
+Tested up to: 6.9
 
 Requires PHP: 8.2
 
 License: GPL v2 or later
 
-[![Testing Suite](https://github.com/alleyinteractive/wp-news-sitemap/actions/workflows/all-pr-tests.yml/badge.svg?branch=develop)](https://github.com/alleyinteractive/wp-news-sitemap/actions/workflows/all-pr-tests.yml)
+Extends WordPress's XML sitemaps feature to add a news sitemap for Google, Yahoo, Bing, et al.
 
-Extends [WordPress's XML sitemaps feature](https://make.wordpress.org/core/2020/07/22/new-xml-sitemaps-functionality-in-wordpress-5-5/) to add a [news sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/news-sitemap).
+## Description
+
+Extends [WordPress's XML sitemaps feature](https://make.wordpress.org/core/2020/07/22/new-xml-sitemaps-functionality-in-wordpress-5-5/) to add a [news sitemap](https://developers.google.com/search/docs/crawling-indexing/sitemaps/news-sitemap). News sitemaps are used by Google and others to surface recent news articles by publishers.
 
 ## Installation
 
@@ -44,6 +46,8 @@ composer dev
 The command will start a local WordPress environment with the plugin activated.
 
 ## Testing
+
+[![Testing Suite](https://github.com/alleyinteractive/wp-news-sitemap/actions/workflows/all-pr-tests.yml/badge.svg?branch=develop)](https://github.com/alleyinteractive/wp-news-sitemap/actions/workflows/all-pr-tests.yml)
 
 Run `composer test` to run tests against PHPUnit and the PHP code in the plugin.
 Unit testing code is written in PSR-4 format and can be found in the `tests`

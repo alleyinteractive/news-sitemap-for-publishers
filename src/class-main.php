@@ -15,6 +15,10 @@ use function add_filter;
 use function esc_url;
 use function home_url;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 /**
  * Main class.
  */

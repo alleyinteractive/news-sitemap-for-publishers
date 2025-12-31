@@ -15,6 +15,10 @@ use function esc_url;
 use function esc_xml;
 use function get_bloginfo;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 /**
  * News_Sitemap_Renderer class.
  */
@@ -92,7 +96,7 @@ class Renderer extends WP_Sitemaps_Renderer {
 		 * @param array    $url_list Array of URLs for the sitemap.
 		 * @param Renderer $renderer The current instance of the Renderer.
 		 */
-		do_action( 'wp_news_sitemaps_before_render_sitemap', $url_list, $this );
+		do_action( 'wp_news_sitemap_before_render_sitemap', $url_list, $this );
 
 		parent::render_sitemap( $url_list );
 
@@ -102,6 +106,6 @@ class Renderer extends WP_Sitemaps_Renderer {
 		 * @param array    $url_list Array of URLs for the sitemap.
 		 * @param Renderer $renderer The current instance of the Renderer.
 		 */
-		do_action( 'wp_news_sitemaps_after_render_sitemap', $url_list, $this );
+		do_action( 'wp_news_sitemap_after_render_sitemap', $url_list, $this );
 	}
 }

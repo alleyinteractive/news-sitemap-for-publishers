@@ -10,6 +10,10 @@ namespace Alley\WP\News_Sitemap;
 use WP_Query;
 use WP_Sitemaps_Provider;
 
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
+
 /**
  * News class.
  */
