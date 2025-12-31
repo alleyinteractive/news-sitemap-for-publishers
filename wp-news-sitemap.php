@@ -5,7 +5,7 @@
  * Description: Extends WordPress's XML sitemaps feature to add a news sitemap for Google, Yahoo, Bing, et al.
  * Version: 1.0.1
  * Author: Matthew Boynes
- * Author URI: https://github.com/alleyinteractive/wp-news-sitemap
+ * Author URI: https://alley.com
  * Requires at least: 5.5
  * Requires PHP: 8.2
  * Tested up to: 6.9
