@@ -34,7 +34,7 @@ class NewsSitemapTest extends TestCase {
 		Main::sitemaps_init( $wp_sitemaps );
 
 		// Prevent actual exit calls from core's sitemap rendering during tests.
-		add_action( 'wp_news_sitemap_after_render_sitemap', fn () => throw new ExitException() );
+		add_action( 'news_sitemap_for_publishers_after_render_sitemap', fn () => throw new ExitException() );
 	}
 
 	/**

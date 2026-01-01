@@ -96,7 +96,7 @@ class Renderer extends WP_Sitemaps_Renderer {
 		 * @param array    $url_list Array of URLs for the sitemap.
 		 * @param Renderer $renderer The current instance of the Renderer.
 		 */
-		do_action( 'wp_news_sitemap_before_render_sitemap', $url_list, $this );
+		do_action( 'news_sitemap_for_publishers_before_render_sitemap', $url_list, $this );
 
 		parent::render_sitemap( $url_list );
 
@@ -106,6 +106,6 @@ class Renderer extends WP_Sitemaps_Renderer {
 		 * @param array    $url_list Array of URLs for the sitemap.
 		 * @param Renderer $renderer The current instance of the Renderer.
 		 */
-		do_action( 'wp_news_sitemap_after_render_sitemap', $url_list, $this );
+		do_action( 'news_sitemap_for_publishers_after_render_sitemap', $url_list, $this );
 	}
 }

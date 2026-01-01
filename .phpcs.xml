@@ -38,7 +38,7 @@
       <property name="prefixes" type="array">
         <element value="alleyinteractive" />
         <element value="alley" />
-        <element value="wp_news_sitemap" />
+        <element value="news_sitemap_for_publishers" />
       </property>
     </properties>
   </rule>

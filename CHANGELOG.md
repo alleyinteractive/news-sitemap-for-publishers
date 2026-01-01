@@ -2,6 +2,10 @@
 
 All notable changes to `WP News Sitemap` will be documented in this file.
 
+## 1.2.0
+
+Replace old name used as prefix
+
 ## 1.1.0
 
 Rename slug to news-sitemap-for-publishers
