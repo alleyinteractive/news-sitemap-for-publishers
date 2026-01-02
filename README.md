@@ -4,7 +4,7 @@ Contributors: mboynes, alleyinteractive
 
 Tags: news, sitemap, seo, publishers, google
 
-Stable tag: 1.2.1
+Stable tag: 1.2.2
 
 Requires at least: 5.5
 

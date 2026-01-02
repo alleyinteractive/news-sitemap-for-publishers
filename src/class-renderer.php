@@ -1,11 +1,11 @@
 <?php
 /**
- * News_Sitemap_Renderer class
+ * Renderer class file
  *
  * @package news-sitemap-for-publishers
  */
 
-namespace Alley\WP\News_Sitemap;
+namespace Alley\WP\News_Sitemap_For_Publishers;
 
 use SimpleXMLElement;
 use WP_Sitemaps_Renderer;
@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * News_Sitemap_Renderer class.
+ * Renderer class.
  */
 class Renderer extends WP_Sitemaps_Renderer {
 

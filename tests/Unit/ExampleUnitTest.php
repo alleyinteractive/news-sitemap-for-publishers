@@ -1,11 +1,11 @@
 <?php
 /**
- * WP News Sitemap Tests: Example Unit Test
+ * News Sitemap for Publishers Tests: Example Unit Test
  *
  * @package news-sitemap-for-publishers
  */
 
-namespace Alley\WP\News_Sitemap\Tests\Unit;
+namespace Alley\WP\News_Sitemap_For_Publishers\Tests\Unit;
 
 use PHPUnit\Framework\TestCase;
 

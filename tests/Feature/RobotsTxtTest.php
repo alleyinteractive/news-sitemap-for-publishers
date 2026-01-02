@@ -1,14 +1,14 @@
 <?php
 /**
- * WP News Sitemap Tests: Robots.txt Feature Test
+ * News Sitemap for Publishers Tests: Robots.txt Feature Test
  *
  * @package news-sitemap-for-publishers
  */
 
-namespace Alley\WP\News_Sitemap\Tests\Feature;
+namespace Alley\WP\News_Sitemap_For_Publishers\Tests\Feature;
 
-use Alley\WP\News_Sitemap\Main;
-use Alley\WP\News_Sitemap\Tests\TestCase;
+use Alley\WP\News_Sitemap_For_Publishers\Main;
+use Alley\WP\News_Sitemap_For_Publishers\Tests\TestCase;
 
 /**
  * Tests that robots.txt exposes the news sitemap URL.

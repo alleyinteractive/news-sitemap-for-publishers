@@ -1,6 +1,6 @@
 <?php
 /**
- * WP News Sitemap Tests: Bootstrap
+ * News Sitemap for Publishers Tests: Bootstrap
  *
  * @package news-sitemap-for-publishers
  */
@@ -9,7 +9,7 @@
  * Visit {@see https://mantle.alley.com/testing/test-framework.html} to learn more.
  */
 
-use Alley\WP\News_Sitemap\Main;
+use Alley\WP\News_Sitemap_For_Publishers\Main;
 
 \Mantle\Testing\manager()
 	// Rsync the plugin to plugins/news-sitemap-for-publishers when testing.

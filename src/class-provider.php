@@ -1,11 +1,11 @@
 <?php
 /**
- * News_Provider class
+ * Provider class file
  *
  * @package news-sitemap-for-publishers
  */
 
-namespace Alley\WP\News_Sitemap;
+namespace Alley\WP\News_Sitemap_For_Publishers;
 
 use WP_Query;
 use WP_Sitemaps_Provider;
@@ -15,7 +15,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /**
- * News class.
+ * Provider class.
  */
 class Provider extends WP_Sitemaps_Provider {
 	/**
