@@ -3,7 +3,7 @@
  * Plugin Name: News Sitemap for Publishers
  * Plugin URI: https://github.com/alleyinteractive/news-sitemap-for-publishers
  * Description: Extends WordPress's XML sitemaps feature to add a news sitemap for Google, Yahoo, Bing, et al.
- * Version: 1.2.0
+ * Version: 1.2.1
  * Author: Matthew Boynes
  * Author URI: https://alley.com
  * Requires at least: 5.5
@@ -25,7 +25,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 /**
  * Root directory to this plugin.
  */
-define( 'WP_NEWS_SITEMAP_DIR', __DIR__ );
+define( 'NEWS_SITEMAP_FOR_PUBLISHERS_DIR', __DIR__ );
 
 // Load the plugin's files.
 require_once __DIR__ . '/src/class-main.php';

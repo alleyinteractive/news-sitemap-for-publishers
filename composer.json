@@ -1,7 +1,7 @@
 {
     "name": "alleyinteractive/news-sitemap-for-publishers",
     "description": "Extends WordPress' XML sitemaps feature to add a news sitemap",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "type": "wordpress-plugin",
     "keywords": [
         "alleyinteractive",

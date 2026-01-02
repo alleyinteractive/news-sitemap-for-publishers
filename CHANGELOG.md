@@ -2,6 +2,10 @@
 
 All notable changes to `WP News Sitemap` will be documented in this file.
 
+## 1.2.1
+
+Fix DIR constant name
+
 ## 1.2.0
 
 Replace old name used as prefix
