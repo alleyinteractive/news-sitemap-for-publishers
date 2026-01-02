@@ -1,6 +1,10 @@
 # Changelog
 
-All notable changes to `WP News Sitemap` will be documented in this file.
+All notable changes to `News Sitemap for Publishers` will be documented in this file.
+
+## 1.2.2
+
+Rename namespace
 
 ## 1.2.1
 

@@ -5,11 +5,11 @@
  * @package news-sitemap-for-publishers
  */
 
-namespace Alley\WP\News_Sitemap\Tests\Feature;
+namespace Alley\WP\News_Sitemap_For_Publishers\Tests\Feature;
 
-use Alley\WP\News_Sitemap\Main;
-use Alley\WP\News_Sitemap\Tests\TestCase;
-use Alley\WP\News_Sitemap\Tests\Util\ExitException;
+use Alley\WP\News_Sitemap_For_Publishers\Main;
+use Alley\WP\News_Sitemap_For_Publishers\Tests\TestCase;
+use Alley\WP\News_Sitemap_For_Publishers\Tests\Util\ExitException;
 use Mantle\Database\Model\Post;
 
 /**

@@ -1,17 +1,17 @@
 <?php
 /**
- * WP News Sitemap Tests: Base Test Class
+ * News Sitemap for Publishers Tests: Base Test Class
  *
  * @package news-sitemap-for-publishers
  */
 
-namespace Alley\WP\News_Sitemap\Tests;
+namespace Alley\WP\News_Sitemap_For_Publishers\Tests;
 
 use Mantle\Testing\Concerns\Prevent_Remote_Requests;
 use Mantle\Testkit\Test_Case as TestkitTest_Case;
 
 /**
- * WP News Sitemap Base Test Case
+ * News Sitemap for Publishers Base Test Case
  */
 abstract class TestCase extends TestkitTest_Case {
 	use Prevent_Remote_Requests;

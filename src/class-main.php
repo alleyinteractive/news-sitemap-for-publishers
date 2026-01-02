@@ -1,11 +1,11 @@
 <?php
 /**
- * Main class
+ * Main class file
  *
  * @package news-sitemap-for-publishers
  */
 
-namespace Alley\WP\News_Sitemap;
+namespace Alley\WP\News_Sitemap_For_Publishers;
 
 use WP_Rewrite;
 use WP_Sitemaps;
